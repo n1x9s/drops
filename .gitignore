@@ -1,0 +1,17 @@
+.env
+.DS_Store
+
+# Go
+backend/api
+backend/coverage.out
+
+# Swift / Xcode
+.build/
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+
+# Local tooling
+tmp/
+dist/
+.run/
