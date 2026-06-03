@@ -1,0 +1,35 @@
+app:
+  env: development
+  public_base_url: http://localhost:8080
+
+http:
+  host: 0.0.0.0
+  port: 8080
+
+database:
+  dsn: postgres://secondbrain:secondbrain@localhost:5432/secondbrain?sslmode=disable
+
+jwt:
+  access_secret: change-me-access-secret
+  refresh_secret: change-me-refresh-secret
+  access_ttl: 15m
+  refresh_ttl: 720h
+
+gemini:
+  api_key: ""
+  model: gemini-2.5-flash
+  embedding_model: gemini-embedding-001
+
+telegram:
+  bot_token: ""
+  chat_id: ""
+
+linear:
+  api_key: ""
+  team_id: ""
+
+observability:
+  otlp_endpoint: ""
+
+logging:
+  level: debug
