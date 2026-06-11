@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5B62B5FE2605CE0D8A1223 /* MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA6B6EB37532EF136D0554 /* MemoriesView.swift */; };
+		134D920F3D44B892AC3A2FD6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63145C0E7E2326D17B306B45 /* SettingsView.swift */; };
+		370220CAE3238D79C2698C75 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE061CFBFA66189B3FA440 /* RootView.swift */; };
+		3B53C98BC1E756FEAD557682 /* GeminiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468A94EC6293FF37B1FDDF16 /* GeminiProvider.swift */; };
+		3FE9DF077116F37AAC98A0A0 /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B282CD1D3171DF082F71BB /* DomainModels.swift */; };
+		422AA58F56377FE8E0753B5E /* SecondBrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A462290CFFCBDF1BA220B /* SecondBrainApp.swift */; };
+		432D730D273EAEF8E0ECF6CA /* IntentAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1931038CE2CC478102D796 /* IntentAPIClient.swift */; };
+		5067F2D8D13F921F526BC725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82D8B19DC432FFFD569BAE8 /* Foundation.framework */; };
+		5E6EF91C9424A63F73EC4204 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BF2EB89E80D9DCC922E51 /* SwiftDataModels.swift */; };
+		634F9B230EBAE21B34F32774 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A76F8EE9B98253B9CF6DD /* HomeView.swift */; };
+		7248B246A80FFF67DAC6CD4D /* SpeechRecognitionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6157036C46BACA2C0BBE1 /* SpeechRecognitionProvider.swift */; };
+		88FA38228182A13188868CB5 /* LLMProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78DB056A5F3F89A7F8BD929 /* LLMProvider.swift */; };
+		8B840B183CEDB01EC8EA0A25 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C516896960EF340851109F /* SettingsViewModel.swift */; };
+		8C07835575DD22CE8BF0F3E5 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DBD60D7BF5DF3E3309580 /* TasksViewModel.swift */; };
+		8DC4134C0E38D64279841D55 /* SecondBrainTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95615F7027EBA688D72AEC21 /* SecondBrainTheme.swift */; };
+		9183942687C421B26EAF2130 /* WhisperProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC69E3603C8A1443CCC3710 /* WhisperProvider.swift */; };
+		95BA2FCC4EA9F50F3AB52A99 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D7E281F9136BF26E2EE39 /* Rows.swift */; };
+		9CEEF2DC7BC94D8DDA864792 /* SecondBrainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C7717ACCA8C81D6894C88 /* SecondBrainAPI.swift */; };
+		9DF28EF649610C66BE7C432B /* MemoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67794140C1C86FC508C7E741 /* MemoriesViewModel.swift */; };
+		9DF4D9A0B1909DF51711F338 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C2415BB7B899A3BFEA3CD1 /* TasksView.swift */; };
+		A5B52783902E3DDC10CF7585 /* MemoryIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF4764743F4B9E2C1CAD1D /* MemoryIntents.swift */; };
+		BED962FC6DD6E29BAB49E025 /* TaskIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717FCAF22F786448B7E36191 /* TaskIntents.swift */; };
+		CF2A5A53406A7174215DB9AB /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFC34A51F5833FB3DB2A8 /* ReminderScheduler.swift */; };
+		D89BDDED4A38545E159B736A /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6960641A48F07B87A2194FC /* SessionStore.swift */; };
+		DE5B98A061130E55041EA24E /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9590C1E80DE948FC2289E3 /* SearchViewModel.swift */; };
+		E6FDEE38E75E27737473BA6F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E400B664D696E3A2AE2FA /* HomeViewModel.swift */; };
+		F85EBA54FA4CEDBE7EB5797D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5726469A48AE8C3C4C9F6FA /* APIClient.swift */; };
+		FF0F79FF5CE5E1CFA80F57DB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612A02A57BE87B618DC99CD5 /* SearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C2415BB7B899A3BFEA3CD1 /* TasksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TasksView.swift; path = Views/Tasks/TasksView.swift; sourceTree = "<group>"; };
+		0D3E400B664D696E3A2AE2FA /* HomeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		10B282CD1D3171DF082F71BB /* DomainModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DomainModels.swift; path = Models/DomainModels.swift; sourceTree = "<group>"; };
+		244A462290CFFCBDF1BA220B /* SecondBrainApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecondBrainApp.swift; path = App/SecondBrainApp.swift; sourceTree = "<group>"; };
+		2F1931038CE2CC478102D796 /* IntentAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntentAPIClient.swift; path = AppIntents/IntentAPIClient.swift; sourceTree = "<group>"; };
+		3E31620168E69F3FA096B1AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEE061CFBFA66189B3FA440 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Views/Shared/RootView.swift; sourceTree = "<group>"; };
+		468A94EC6293FF37B1FDDF16 /* GeminiProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiProvider.swift; path = Services/AI/GeminiProvider.swift; sourceTree = "<group>"; };
+		4E9590C1E80DE948FC2289E3 /* SearchViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = ViewModels/SearchViewModel.swift; sourceTree = "<group>"; };
+		527DBD60D7BF5DF3E3309580 /* TasksViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TasksViewModel.swift; path = ViewModels/TasksViewModel.swift; sourceTree = "<group>"; };
+		55C516896960EF340851109F /* SettingsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsViewModel.swift; path = ViewModels/SettingsViewModel.swift; sourceTree = "<group>"; };
+		612A02A57BE87B618DC99CD5 /* SearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = Views/Search/SearchView.swift; sourceTree = "<group>"; };
+		63145C0E7E2326D17B306B45 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		67794140C1C86FC508C7E741 /* MemoriesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoriesViewModel.swift; path = ViewModels/MemoriesViewModel.swift; sourceTree = "<group>"; };
+		6A4A76F8EE9B98253B9CF6DD /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		717FCAF22F786448B7E36191 /* TaskIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskIntents.swift; path = AppIntents/TaskIntents.swift; sourceTree = "<group>"; };
+		7F8BF2EB89E80D9DCC922E51 /* SwiftDataModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDataModels.swift; path = Models/SwiftDataModels.swift; sourceTree = "<group>"; };
+		800D4F2352729A1BD544C799 /* SecondBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SecondBrain.app; path = SecondBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838C7717ACCA8C81D6894C88 /* SecondBrainAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecondBrainAPI.swift; path = Services/API/SecondBrainAPI.swift; sourceTree = "<group>"; };
+		8EB6157036C46BACA2C0BBE1 /* SpeechRecognitionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechRecognitionProvider.swift; path = Services/Speech/SpeechRecognitionProvider.swift; sourceTree = "<group>"; };
+		95615F7027EBA688D72AEC21 /* SecondBrainTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecondBrainTheme.swift; path = DesignSystem/SecondBrainTheme.swift; sourceTree = "<group>"; };
+		9CC69E3603C8A1443CCC3710 /* WhisperProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhisperProvider.swift; path = Services/Speech/WhisperProvider.swift; sourceTree = "<group>"; };
+		A78DB056A5F3F89A7F8BD929 /* LLMProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LLMProvider.swift; path = Services/AI/LLMProvider.swift; sourceTree = "<group>"; };
+		B53D7E281F9136BF26E2EE39 /* Rows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rows.swift; path = Views/Shared/Rows.swift; sourceTree = "<group>"; };
+		BDBCFC34A51F5833FB3DB2A8 /* ReminderScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReminderScheduler.swift; path = Services/Notifications/ReminderScheduler.swift; sourceTree = "<group>"; };
+		C3AF4764743F4B9E2C1CAD1D /* MemoryIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryIntents.swift; path = AppIntents/MemoryIntents.swift; sourceTree = "<group>"; };
+		C5726469A48AE8C3C4C9F6FA /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Services/API/APIClient.swift; sourceTree = "<group>"; };
+		C7CA6B6EB37532EF136D0554 /* MemoriesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoriesView.swift; path = Views/Memories/MemoriesView.swift; sourceTree = "<group>"; };
+		D6960641A48F07B87A2194FC /* SessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionStore.swift; path = App/SessionStore.swift; sourceTree = "<group>"; };
+		D82D8B19DC432FFFD569BAE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35763A5BB1F9E2C54F31386A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067F2D8D13F921F526BC725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C321453B268B1BADFB6908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800D4F2352729A1BD544C799 /* SecondBrain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1C688511162CFEEFD60ED2 = {
+			isa = PBXGroup;
+			children = (
+				35C321453B268B1BADFB6908 /* Products */,
+				FECAE803D67EAF8385E3919B /* Frameworks */,
+				B62D2DD0CE1F872868B2025D /* SecondBrain */,
+			);
+			sourceTree = "<group>";
+		};
+		8D51642F67683FE3FAFB7C85 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D82D8B19DC432FFFD569BAE8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B62D2DD0CE1F872868B2025D /* SecondBrain */ = {
+			isa = PBXGroup;
+			children = (
+				244A462290CFFCBDF1BA220B /* SecondBrainApp.swift */,
+				D6960641A48F07B87A2194FC /* SessionStore.swift */,
+				2F1931038CE2CC478102D796 /* IntentAPIClient.swift */,
+				C3AF4764743F4B9E2C1CAD1D /* MemoryIntents.swift */,
+				717FCAF22F786448B7E36191 /* TaskIntents.swift */,
+				95615F7027EBA688D72AEC21 /* SecondBrainTheme.swift */,
+				10B282CD1D3171DF082F71BB /* DomainModels.swift */,
+				7F8BF2EB89E80D9DCC922E51 /* SwiftDataModels.swift */,
+				468A94EC6293FF37B1FDDF16 /* GeminiProvider.swift */,
+				A78DB056A5F3F89A7F8BD929 /* LLMProvider.swift */,
+				C5726469A48AE8C3C4C9F6FA /* APIClient.swift */,
+				838C7717ACCA8C81D6894C88 /* SecondBrainAPI.swift */,
+				BDBCFC34A51F5833FB3DB2A8 /* ReminderScheduler.swift */,
+				8EB6157036C46BACA2C0BBE1 /* SpeechRecognitionProvider.swift */,
+				9CC69E3603C8A1443CCC3710 /* WhisperProvider.swift */,
+				0D3E400B664D696E3A2AE2FA /* HomeViewModel.swift */,
+				67794140C1C86FC508C7E741 /* MemoriesViewModel.swift */,
+				4E9590C1E80DE948FC2289E3 /* SearchViewModel.swift */,
+				55C516896960EF340851109F /* SettingsViewModel.swift */,
+				527DBD60D7BF5DF3E3309580 /* TasksViewModel.swift */,
+				6A4A76F8EE9B98253B9CF6DD /* HomeView.swift */,
+				C7CA6B6EB37532EF136D0554 /* MemoriesView.swift */,
+				612A02A57BE87B618DC99CD5 /* SearchView.swift */,
+				63145C0E7E2326D17B306B45 /* SettingsView.swift */,
+				3FEE061CFBFA66189B3FA440 /* RootView.swift */,
+				B53D7E281F9136BF26E2EE39 /* Rows.swift */,
+				02C2415BB7B899A3BFEA3CD1 /* TasksView.swift */,
+				3E31620168E69F3FA096B1AE /* Info.plist */,
+			);
+			name = SecondBrain;
+			path = .;
+			sourceTree = "<group>";
+		};
+		FECAE803D67EAF8385E3919B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D51642F67683FE3FAFB7C85 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B20CF848E779DC33F35BBD6 /* SecondBrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DAA576D09F628D23A7826C /* Build configuration list for PBXNativeTarget "SecondBrain" */;
+			buildPhases = (
+				AA4ADFC618ED1039E81F7D37 /* Sources */,
+				35763A5BB1F9E2C54F31386A /* Frameworks */,
+				AB2800AE8F036BD41A34BDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondBrain;
+			productName = SecondBrain;
+			productReference = 800D4F2352729A1BD544C799 /* SecondBrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8A2273F041EC50DCF19AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+			};
+			buildConfigurationList = 0BE531402CC3D85F63FD2572 /* Build configuration list for PBXProject "SecondBrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D1C688511162CFEEFD60ED2;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 35C321453B268B1BADFB6908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B20CF848E779DC33F35BBD6 /* SecondBrain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2800AE8F036BD41A34BDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4ADFC618ED1039E81F7D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422AA58F56377FE8E0753B5E /* SecondBrainApp.swift in Sources */,
+				D89BDDED4A38545E159B736A /* SessionStore.swift in Sources */,
+				432D730D273EAEF8E0ECF6CA /* IntentAPIClient.swift in Sources */,
+				A5B52783902E3DDC10CF7585 /* MemoryIntents.swift in Sources */,
+				BED962FC6DD6E29BAB49E025 /* TaskIntents.swift in Sources */,
+				8DC4134C0E38D64279841D55 /* SecondBrainTheme.swift in Sources */,
+				3FE9DF077116F37AAC98A0A0 /* DomainModels.swift in Sources */,
+				5E6EF91C9424A63F73EC4204 /* SwiftDataModels.swift in Sources */,
+				3B53C98BC1E756FEAD557682 /* GeminiProvider.swift in Sources */,
+				88FA38228182A13188868CB5 /* LLMProvider.swift in Sources */,
+				F85EBA54FA4CEDBE7EB5797D /* APIClient.swift in Sources */,
+				9CEEF2DC7BC94D8DDA864792 /* SecondBrainAPI.swift in Sources */,
+				CF2A5A53406A7174215DB9AB /* ReminderScheduler.swift in Sources */,
+				7248B246A80FFF67DAC6CD4D /* SpeechRecognitionProvider.swift in Sources */,
+				9183942687C421B26EAF2130 /* WhisperProvider.swift in Sources */,
+				E6FDEE38E75E27737473BA6F /* HomeViewModel.swift in Sources */,
+				9DF28EF649610C66BE7C432B /* MemoriesViewModel.swift in Sources */,
+				DE5B98A061130E55041EA24E /* SearchViewModel.swift in Sources */,
+				8B840B183CEDB01EC8EA0A25 /* SettingsViewModel.swift in Sources */,
+				8C07835575DD22CE8BF0F3E5 /* TasksViewModel.swift in Sources */,
+				634F9B230EBAE21B34F32774 /* HomeView.swift in Sources */,
+				0A5B62B5FE2605CE0D8A1223 /* MemoriesView.swift in Sources */,
+				FF0F79FF5CE5E1CFA80F57DB /* SearchView.swift in Sources */,
+				134D920F3D44B892AC3A2FD6 /* SettingsView.swift in Sources */,
+				370220CAE3238D79C2698C75 /* RootView.swift in Sources */,
+				95BA2FCC4EA9F50F3AB52A99 /* Rows.swift in Sources */,
+				9DF4D9A0B1909DF51711F338 /* TasksView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6359919C67AFA8C0304E2129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondbrain.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		949C61752A9FD746FE15FBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		96624479C939333BBEF98C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C435039D670DE83F40A4E6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondbrain.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE531402CC3D85F63FD2572 /* Build configuration list for PBXProject "SecondBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949C61752A9FD746FE15FBD4 /* Debug */,
+				96624479C939333BBEF98C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DAA576D09F628D23A7826C /* Build configuration list for PBXNativeTarget "SecondBrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C435039D670DE83F40A4E6B3 /* Release */,
+				6359919C67AFA8C0304E2129 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8A2273F041EC50DCF19AF4 /* Project object */;
+}
